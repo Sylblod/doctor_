@@ -17,12 +17,12 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased bg-ray-s0">
+    <body class="font-sans antialiased bg-gray-100">
         @include('layouts.admin.navigate')
         @include('layouts.admin.sidebar')
         <!-- Page Content -->
         <div class="p-4 sm:ml-64">
-            <div class=mt-14>
+            <div class="mt-14">
                 {{ $slot }}
 
 
