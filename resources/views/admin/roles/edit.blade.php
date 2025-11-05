@@ -1,15 +1,16 @@
-<x-admin-layout
-:breadcrumbs="[
+<x-admin-layout title="Roles | Simiflig " :breadcrumbs="[
     [
         'name' => 'Dashboard',  // <-- Corregido
         'href' => route('admin.dashboard'),
     ],
     [
         'name' => 'Roles',  // <-- Corregido
-        'href' => route('layouts.admin.roles.index'),
+        'href' => route('admin.roles.index'),
     ],
     [
         'name' => 'Editar',
     ],
 ]">
+
+
 </x-admin-layout>
