@@ -67,13 +67,13 @@
                 form.addEventListener('submit', function(e){
                     e.preventDefault();
                     Swal.fire({
-                      title: "¿Estas seguro?",
+                      title: "¿Estás seguro?",
                       text: "No podrás revertir esto ",
                       icon: "warning",
                       showCancelButton: true,
                       confirmButtonColor: "#3085d6",
                       cancelButtonColor: "#d33",
-                      confirmButtonText: "Si, eliminar",
+                      confirmButtonText: "Sí, eliminar",
                       cancelButtonText: "Cancelar"
                     }).then((result) => {
                         if(result.isConfirmed){
