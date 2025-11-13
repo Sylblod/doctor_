@@ -8,7 +8,7 @@
          'active' => request()->routeIs('admin.dashboard'),
       ],
       [
-         'header' => 'Gestion',
+         'header' => 'Gestión',
       ],
 
       [
@@ -16,6 +16,13 @@
          'icon' => 'fa-solid fa-shield-halved',
          'href' => route('admin.roles.index'),
          'active' => request()->routeIs('admin.roles.index'),
+      
+      ],
+      [
+         'name' => 'Usuarios',
+         'icon' => 'fa-solid fa-users',
+         'href' => route('admin.users.index'),
+         'active' => request()->routeIs('admin.users.index'),
       
       ],
        
