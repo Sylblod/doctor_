@@ -16,6 +16,9 @@
         </x-wire-button>
     </div>
 
+    @livewire('admin.datatables.user-table')
+    
+
    
 
 </x-admin-layout>
